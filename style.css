@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 body, main, footer, .qrcode, .qrcode-texto {
@@ -89,4 +90,97 @@ footer a{
 /* <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body, main, footer, .qrcode, .qrcode-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(217, 45%, 84%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    flex: 1;
+}
+
+.qrcode{
+    background: hsl(0, 0%, 100%);
+    max-width: 320px;
+    border-radius: 16px;
+    padding: 16px 16px 40px;
+    gap: 24px;
+}
+
+.qrcode img{
+    height: 288px;
+    width: 288px;
+    border-radius: 16px;
+}
+
+.qrcode-texto{
+    max-width: 256px;
+    gap: 16px;
+}
+
+.qrcode-texto h2{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: hsl(218, 44%, 20%);
+}
+
+.qrcode-texto p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
+footer{
+    font-size: 11px;
+    color: hsl(220, 15%, 55%);
+    align-self: center;
+    padding: 16px 0;
+}
+
+footer span{
+    padding: 8px 4px;
+}
+
+footer a{
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 375px) {
+    footer {
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+>>>>>>> 49bbb8618b62732fda0e90f3bd2f857b1014ffbc
   </style> */
